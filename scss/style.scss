@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+.footerPieDePagina {
+  min-height: 30vh;
+}
+
 .mainBodyFooter {
   padding: 40px 0;
   background-color: $color-fondo-footer;
@@ -163,6 +167,7 @@ a {
 }
 
 /* responsive */
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -373,3 +378,15 @@ a {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
 }
 
+.btn {
+  background-color: $color-principal-transparente;
+  border: $color-principal;
+}
+
+.nav-link {
+  color: $color-letras;
+}
+
+.card {
+  background-color: $color-principal-transparente !important;
+}
