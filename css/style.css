@@ -135,6 +135,9 @@ section {
 a {
   text-decoration: none; }
 
+.footerPieDePagina {
+  min-height: 30vh; }
+
 .mainBodyFooter {
   padding: 40px 0;
   background-color: black;
@@ -409,3 +412,13 @@ a {
 
 .h2Cards {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif; }
+
+.btn {
+  background-color: rgba(119, 44, 133, 0.3);
+  border: #3d0066; }
+
+.nav-link {
+  color: #eeeeee; }
+
+.card {
+  background-color: rgba(119, 44, 133, 0.3) !important; }
