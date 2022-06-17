@@ -1,0 +1,18 @@
+$color-principal: #3d0066;
+$color-secundario: #772c85;
+$color-letras: #eeeeee;
+$color-sombra: black;
+$color-fondo-footer: black;
+$color-principal-transparente: rgba(119, 44, 133, 0.3);
+
+$titulos: map-merge
+  (
+    (
+      "$h1": 4em,
+      "$h2": 3em,
+      "$h3": 2em,
+      "$h4": 1em,
+      "$h5": 0.75em,
+      "$h6": 0.5em,
+    )
+  );

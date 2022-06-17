@@ -1,0 +1,33 @@
+.faqBodyDivImagen {
+  margin: 2.5%;
+}
+
+.contactanosBodyDivFormulario {
+  color: $color-letras;
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background-color: $color-principal-transparente;
+
+  .contactanosBodyDivFormularioTitulo {
+    text-align: center;
+  }
+
+  .contactanosBodyDivFormularioEnviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.terminosYCondicionesBodyDivTyC {
+  color: $color-letras;
+  background-color: $color-principal-transparente;
+  margin: 20px;
+}
+@media (max-width: 769px) {
+  img {
+    width: 600px;
+    height: 400px;
+  }
+}

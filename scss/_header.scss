@@ -1,0 +1,41 @@
+.seriviciosBodyDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  height: 65vh;
+  overflow: auto;
+  flex-direction: row;
+  div {
+    @extend .faqBodyDivImagen;
+  }
+  .seriviciosBodyDivCard {
+    margin: auto;
+    color: $color-letras;
+    width: 400px;
+    padding: 20px;
+    box-shadow: $color-fondo-footer;
+    border-radius: 20px;
+    background: $color-principal-transparente;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 500px;
+
+    .serviciosBodyDivCardImagen {
+      object-fit: contain;
+      height: 200px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .seriviciosBodyDivCard {
+    display: -ms-inline-grid;
+  }
+}
